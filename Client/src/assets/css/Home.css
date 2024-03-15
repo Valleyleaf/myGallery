@@ -1,0 +1,14 @@
+.homeClass{
+  position: relative;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+    background-color: var(--white);
+  }
+  
+
+.goalsContainer{
+  width: 50%;
+}

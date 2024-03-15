@@ -1,0 +1,51 @@
+.headerClass{
+    position:relative;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: var(--white);
+    background-color: var(--black);
+  }
+
+
+.sjLogo{
+  width: 25spx;
+  height: 25px;
+}
+
+.titleAnimation{
+  transition: transform 0.3s ease;
+}
+
+.titleAnimation:hover{
+  transition: transform 0.3s ease;
+  transform: scale(1.02);
+}
+
+  .title{
+    font-size: 95px;
+    color: var(--yellow);
+    margin: 0px;
+  }
+
+  .pushDown{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+  }
+
+  .title2{
+    font-size: 122px;
+    color: var(--white);
+    margin: 0px;
+  }
+
+
+
+  .flavorText{
+    font-size: 22px;
+    margin: 0px;
+  }

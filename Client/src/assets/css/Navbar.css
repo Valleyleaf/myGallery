@@ -1,0 +1,57 @@
+.NavClass{
+  position: relative;
+    display: flex;
+    flex: 3;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--black);
+    background-color: var(--yellow);
+    overflow: hidden;
+  }
+  
+  .navCartImg{
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    transition: transform 0.3s ease;
+  }
+
+  .navCartImg:hover{
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    transition: transform 0.3s ease;
+    transform: scale(1.3) rotate(-15deg);
+    
+  }
+
+  .navButton{
+    background-color: var(--Transparent);
+    font-weight: bold;
+    margin: 5px;
+    color: var(--black);
+    transition: transform 0.8s ease, color 0.3s ease;
+  }
+
+  .navButton:hover{
+    background-color: var(--Transparent);
+    color: var(--linkColor);
+    border-color:var(--Transparent);
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+
+.icon-spinner:hover {
+  animation: spin-animation 0.5s 1;
+  display: inline-block;
+}
+
+@keyframes spin-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
