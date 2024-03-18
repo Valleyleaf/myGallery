@@ -5,10 +5,42 @@
     justify-content: center;
     align-items: center;
     color: var(--black);
-    background-color: var(--white);
+    background-color: var(--black);
   }
+
+.homeSide{
+  width: 40%;
+  
+}
   
 
 .goalsContainer{
   width: 50%;
+}
+
+.profileImage{
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin-left: -80px;
+}
+
+.profile0{
+  position: absolute;
+  z-index: 3;
+}
+
+.profile1{
+  position: absolute;
+  z-index: 4;
+}
+
+.profile2{
+  position: absolute;
+  z-index: 2;
+}
+
+.profile3{
+  position: absolute;
+  z-index: 1;
 }

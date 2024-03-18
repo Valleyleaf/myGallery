@@ -21,7 +21,7 @@
 
 .titleAnimation:hover{
   transition: transform 0.3s ease;
-  transform: scale(1.02);
+  transform: scale(1.02) rotate(-3deg);
 }
 
   .title{
@@ -48,4 +48,18 @@
   .flavorText{
     font-size: 22px;
     margin: 0px;
+  }
+
+  .icon-spinnerMeme:hover {
+    animation: spin-animation 0.3s infinite;
+    display: inline-block;
+  }
+  
+  @keyframes spin-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(359deg);
+    }
   }

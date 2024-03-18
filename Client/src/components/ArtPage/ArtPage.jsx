@@ -29,10 +29,10 @@ const gallery = [
     <>
     <div className=' artPageClass flex-container-column center-content main-content-scaling'>
 
-      <h2 className='flex-container-row center-content'>Gallery</h2>
+      <h2 className='flex-container-row center-content artTitleWhite'>Gallery</h2>
       <div className='flex-container-row center-content'>
-      <h3>NOTE:</h3>
-      <p className='pushDownArt'>All prices are final, no refunds, all proceeds go to charity and the upkeep of Saint John</p>
+      <h3 className='artTitleWhite'>NOTE:</h3>
+      <p className='pushDownArt artTitleWhite'>All prices are final, no refunds, all proceeds go to charity and the upkeep of Saint John</p>
       </div>
 
         <div className='flex-container-row center-content'>
