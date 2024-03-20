@@ -15,7 +15,7 @@ export default function Header(){
         <div className="flex-container-column headerClass ">
         <Link
           to="/"
-          className="flex-container-row title titleAnimation"
+          className="flex-container-row title titleAnimation main-content-scaling"
           onClick={handleLinkClick}
         >
                 <h2 className="title pushDown">Rat</h2>

@@ -43,12 +43,33 @@
     margin: 0px;
   }
 
-
-
   .flavorText{
     font-size: 22px;
     margin: 0px;
   }
+
+/* Mobile Options */
+@media screen and (max-width: 980px){
+  .titleAnimation:hover{
+    transition: transform 0.3s ease;
+    transform: scale(0.95) rotate(-9deg);
+  }
+}
+
+@media screen and (max-width: 890px){
+  .titleAnimation:hover{
+    transition: transform 0.3s ease;
+    transform: scale(0.85) rotate(-9deg);
+  }
+}
+
+@media screen and (max-width: 688px){
+  .titleAnimation:hover{
+    transition: transform 0.3s ease;
+    transform: scale(0.75) rotate(-9deg);
+  }
+}
+
 
   .icon-spinnerMeme:hover {
     animation: spin-animation 0.3s infinite;
@@ -63,3 +84,4 @@
       transform: rotate(359deg);
     }
   }
+

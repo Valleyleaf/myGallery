@@ -27,15 +27,15 @@ const gallery = [
   export default function Art(){
   return (
     <>
-    <div className=' artPageClass flex-container-column center-content main-content-scaling'>
-
-      <h2 className='flex-container-row center-content artTitleWhite'>Gallery</h2>
-      <div className='flex-container-row center-content'>
-      <h3 className='artTitleWhite'>NOTE:</h3>
-      <p className='pushDownArt artTitleWhite'>All prices are final, no refunds, all proceeds go to charity and the upkeep of Saint John</p>
-      </div>
-
+    <div className=' artPageClass gallery-flex-container-column'>
+      <div>
+        <h2 className='flex-container-row center-content artTitleWhite'>Gallery</h2>
         <div className='flex-container-row center-content'>
+        <h3 className='artTitleWhite'>NOTE:</h3>
+        <p className='pushDownArt artTitleWhite'>All prices are final, no refunds, all proceeds go to charity and the upkeep of Saint John</p>
+        </div>
+      </div>
+        <div className='gallery-flex-container-row center-content'>
         <div className='responsive-grid'>
           <div className='displayImageLarge fade-in-from-top'>
             <h2 className='artTitleBlack'>{slideTitle[0]}</h2>

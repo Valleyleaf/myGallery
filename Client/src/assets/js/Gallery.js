@@ -1,7 +1,7 @@
 
 let slideTitle = [
     'The Herald',
-    'Title 1',
+    'Ghost',
     'Title 2',
     'Title 3',
     'Title 4',
@@ -13,7 +13,7 @@ let slideTitle = [
 
 let slideContent = [
     'Acrylic on 90x30 canvas. No Frame. Signed.',
-    'Content 1',
+    'Acrylic on 20x20 canvas. No Frame. Signed',
     'Content 2',
     'Content 3',
     'Content 4',

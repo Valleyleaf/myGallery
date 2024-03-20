@@ -21,6 +21,7 @@ export default function Home(){
                             <img className="profileImage profile3" src="src\assets\img\Profile\Profile_0003_Layer-1.png" alt="ImageofRatMaestro" />
                         </div>
                     </div>
+                    <p className='artTitleWhite'>test</p>
             </div>
         </div>
     );

@@ -12,7 +12,7 @@ function App() {
     <>
     <Header/>
     <Navbar/>
-    <div className='outletClass main-content-scaling'><Outlet/></div>
+    <div className='outletClass'><Outlet/></div>
     <Footer/>
     </>
   )
