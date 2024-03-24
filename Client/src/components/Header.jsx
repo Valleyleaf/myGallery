@@ -22,7 +22,7 @@ export default function Header(){
                 <h2 className="title2">Maestro</h2>
         </Link>
         <div className="flex-container-row center-content">
-        <h3 className="statusSpace">Local rat Artist in Saint John</h3>
+        <h3 className="statusSpace">Local Artist in Saint John</h3>
         <img className="sjLogo icon-spinnerMeme" src="\src\assets\icons\logo-white.png" alt="City of Saint John logo" />
         </div>
 

@@ -13,21 +13,30 @@ export default function Navbar(){
     };
     return(
         <div className="NavClass">
-            <div>
+            <div className="navButton">
                 <Link
                 to="/"
-                className="navButton icon-spinner"
+                className="navButton"
                 >
-                My Goal
+                Maestro
                 </Link>
             </div>
 
-            <div>
+            <div className="navButton">
                 <Link
                 to="/Gallery"
-                className="navButton icon-spinner"
+                className="navButton"
                 >
-                For Sale
+                Art Gallery
+                </Link>
+            </div>
+
+            <div className="navButton">
+                <Link
+                to="/Photography"
+                className="navButton"
+                >
+                Photography
                 </Link>
             </div>
 

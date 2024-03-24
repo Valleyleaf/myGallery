@@ -38,11 +38,13 @@
   }
 
   .navButton:hover{
+    text-decoration: underline;
     background-color: var(--Transparent);
     padding: 20px;
     color: var(--linkColor);
     border-color:var(--Transparent);
     transition: transform 0.3s ease, color 0.3s ease;
+    transform: scale(1.8) rotate(-5deg);
   }
 
 

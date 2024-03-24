@@ -36,6 +36,9 @@
 .gallery-flex-container-row{
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 50px;
 }
 
 .gallery-flex-container-column{
@@ -48,14 +51,17 @@
     display: grid;
     grid-template-columns: repeat(1, 3fr);
     gap: 15px; 
-    justify-content: center;
-    align-items: center; 
+    justify-content: flex-start;
+    align-items: flex-start;
     margin-right: 15px;
   }
   
   .imgFit{
-    width: 70%;
-    height: 50%;
+    margin: 0px;
+    width: 80%;
+    max-width: 800px;
+    height: 80%;
+    object-fit: contain;
   }
 
   .artTitleBlack{
@@ -64,6 +70,8 @@
 
   .artTitleWhite{
     color: var(--white);
+    margin: 2px;
+    padding: 0px;
   }
 
   .pushDownArt{
@@ -72,53 +80,47 @@
 
 
 .displayImageSmall{
-  width: 500px;
-  height: 400px;
-  background-color: var(--metalic);
+  background-color: var(--black);
   color: var(--white);
   border: 1px solid #ddd;
   border-radius: 9px;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   transition: transform 0.3s ease;
 }
 
 .displayImageMedium{
-  width: 500px;
-  height: 300px;
   background-color: var(--black);
   color: var(--white);
   border: 1px solid #ddd;
   border-radius: 9px;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   transition: transform 0.3s ease;
 }
 
 .displayImageLarge{
-  width: 500px;
-  height: 600px;
-  background-color: var(--white);
+  background-color: var(--black);
   color: var(--white);
   border: 1px solid #ddd;
   border-radius: 9px;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   transition: transform 0.3s ease;
 }
 
 .displayImageSmall:hover{
-  transform: scale(1.05);
+  transform: scale(1.04);
   transition: transform 0.3s ease;
 }
 
 .displayImageMedium:hover{
-  transform: scale(1.05);
+  transform: scale(1.04);
   transition: transform 0.3s ease;
 }
 
 .displayImageLarge:hover{
-  transform: scale(1.05);
+  transform: scale(1.04);
   transition: transform 0.3s ease;
 }
 
