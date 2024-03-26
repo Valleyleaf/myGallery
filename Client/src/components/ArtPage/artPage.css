@@ -104,18 +104,6 @@
     margin: 5px;
   }
 
-
-
-.displayImageSmall:hover{
-  transform: scale(1.04);
-  transition: transform 0.3s ease;
-}
-
-.displayImageMedium:hover{
-  transform: scale(1.04);
-  transition: transform 0.3s ease;
-}
-
 .displayImageLarge:hover{
   transform: scale(1.04);
   transition: transform 0.3s ease;
@@ -153,34 +141,13 @@
 
 /* Mobile Options */
 @media screen and (max-width: 980px){
-  .responsive-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px; 
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-right: 15px;
-  }
+
 }
 
 @media screen and (max-width: 890px){
-  .responsive-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px; 
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-right: 15px;
-  }
+
 }
 
 @media screen and (max-width: 688px){
-  .responsive-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px; 
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-right: 15px;
-  }
+
 }
