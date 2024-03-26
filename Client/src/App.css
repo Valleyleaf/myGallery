@@ -11,6 +11,7 @@
   --testColor: #ffcfcf;
   --yellow: #fff700;
   --black: #000000;
+  color: var(--white);
 }
 
 .outletClass{

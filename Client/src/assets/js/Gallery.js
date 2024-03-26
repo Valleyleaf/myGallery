@@ -11,6 +11,8 @@ let slideImage = [
 ]
 
 
+
+
 let slideTitle = [
     'The Herald',
     'Ghost',

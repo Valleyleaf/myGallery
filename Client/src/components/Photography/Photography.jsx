@@ -13,9 +13,13 @@ import {photoImage, photoTitle, photoDesc} from '../../assets/js/Photography'
         </div>
       </div>
         <div className='gallery-flex-container-row center-content'>
-        <div className='responsive-grid'>
+        <div className='gallery-flex-container-column'>
           <div className='displayImageLarge fade-in-from-top'>
+          <div className='flex-container-row center-content'>
+            <h2 className="centerFlavorTitle">//</h2>
             <h2 className='artTitleWhite'>{photoTitle[0]}</h2>
+            <h2 className="centerFlavorTitle">//</h2>
+          </div>
             <img className='imgFit' src={photoImage[0]} alt="DisplayedArtwork"/>
             <p className='artTitleWhite'>{photoDesc[0]}</p>
           </div>
