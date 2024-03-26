@@ -85,3 +85,31 @@
     }
   }
 
+@media screen and (max-width: 980px){
+  .title{
+    font-size: 65px;
+    color: var(--yellow);
+    margin: 0px;
+  }
+
+  .pushDown{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+  }
+
+  .title2{
+    font-size: 90px;
+    color: var(--white);
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 980px){
+  
+}
+
+@media screen and (max-width: 688px){
+  
+}

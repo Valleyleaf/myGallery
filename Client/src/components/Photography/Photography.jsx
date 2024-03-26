@@ -1,10 +1,24 @@
 import React, { useState, useEffect } from 'react';
 import {photoImage, photoTitle, photoDesc} from '../../assets/js/Photography'
+import './photography.css'
 
-  export default function Photography(){
+function Photography() {
+  const renderItems = () => {
+    return photoImage.map((artwork, index) => (
+      <div key={index} className='photoImage fade-in'>
+          <div className='flex-container-row center-content'>
+            <h2 className="centerFlavorTitle">//</h2>
+            <h2 className='artTitleWhite'>{photoTitle[index]}</h2>
+            <h2 className="centerFlavorTitle">//</h2>
+          </div>
+        <img className='imgFit' src={artwork} alt="DisplayedArtwork" />
+        <p className='artTitleWhite'>{photoDesc[index]}</p>
+      </div>
+    ));
+  };
+
   return (
-    <>
-    <div className=' artPageClass gallery-flex-container-column'>
+    <div className='photo-flex-container'>
       <div>
         <h2 className='flex-container-row center-content artTitleWhite'>Photography</h2>
         <div className='flex-container-row center-content'>
@@ -12,39 +26,13 @@ import {photoImage, photoTitle, photoDesc} from '../../assets/js/Photography'
         <p className='pushDownArt artTitleWhite'>Copyright Aston Andersson Dahllof</p>
         </div>
       </div>
-        <div className='gallery-flex-container-row center-content'>
-        <div className='gallery-flex-container-column'>
-          <div className='displayImageLarge fade-in-from-top'>
-          <div className='flex-container-row center-content'>
-            <h2 className="centerFlavorTitle">//</h2>
-            <h2 className='artTitleWhite'>{photoTitle[0]}</h2>
-            <h2 className="centerFlavorTitle">//</h2>
-          </div>
-            <img className='imgFit' src={photoImage[0]} alt="DisplayedArtwork"/>
-            <p className='artTitleWhite'>{photoDesc[0]}</p>
-          </div>
-
-          <div className='displayImageLarge fade-in-from-top'>
-            <h2 className='artTitleWhite'>{photoTitle[1]}</h2>
-            <img className='imgFit' src={photoImage[1]} alt="DisplayedArtwork"/>
-            <p className='artTitleWhite'>{photoDesc[1]}</p>
-          </div>
-
-          <div className='displayImageLarge fade-in-from-top'>
-            <h2 className='artTitleWhite'>{photoTitle[2]}</h2>
-            <img className='imgFit' src={photoImage[2]} alt="DisplayedArtwork"/>
-            <p className='artTitleWhite'>{photoDesc[2]}</p>
-          </div>
-
-          <div className='displayImageLarge fade-in-from-top'>
-            <h2 className='artTitleWhite'>{photoTitle[3]}</h2>
-            <img className='imgFit' src={photoImage[3]} alt="DisplayedArtwork"/>
-            <p className='artTitleWhite'>{photoDesc[3]}</p>
-          </div>
-      </div>
+      <div className='gallery-flex-container-row'>
+        <div className='photo-grid'>
+          {renderItems()}
+        </div>
       </div>
     </div>
-    </>
   );
-};
+}
 
+export default Photography;

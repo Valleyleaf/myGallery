@@ -27,7 +27,7 @@ function Art() {
   };
 
   return (
-    <div className='artPageClass gallery-flex-container-column'>
+    <div className='gallery-flex-container-column'>
       <div>
         <h2 className='flex-container-row center-content artTitleWhite'>Gallery</h2>
         <div className='flex-container-row center-content'>
