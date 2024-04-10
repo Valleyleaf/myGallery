@@ -102,9 +102,9 @@
   }
 
   .title2{
-    font-size: 90px;
-    color: var(--white);
-    margin: 0px;
+      font-size: 90px;
+      color: var(--white);
+      margin: 0px;
   }
 }
 

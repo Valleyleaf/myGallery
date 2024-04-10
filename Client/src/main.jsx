@@ -5,6 +5,7 @@ import App from './App.jsx'
 import Home from './components/Home.jsx'
 import Photography from './components/Photography/Photography.jsx'
 import Gallery from './components/ArtPage/ArtPage.jsx'
+import Cart from './components/Cart.jsx'
 
 import './index.css'
 
@@ -23,6 +24,10 @@ const router = createBrowserRouter([{
     {
       path: 'photography',
       element: <Photography />,
+    },
+    {
+      path: 'cart',
+      element: <Cart />,
     },
   ],
 }])

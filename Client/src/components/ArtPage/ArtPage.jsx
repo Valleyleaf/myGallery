@@ -1,25 +1,25 @@
 import React, { useState, useEffect } from 'react';
-import {slideTitle, slideContent, slideCost, slideAvailability, slideImage} from '../../assets/js/Gallery'
+import {GalleryData} from '../../assets/js/Gallery'
 import './artPage.css'
 
 
 function Art() {
   const renderItems = () => {
-    return slideImage.map((artwork, index) => (
-      <div key={index} className='displayImageLarge fade-in'>
+    return GalleryData.map((data, id) => (
+      <div key={id} className='displayImageLarge fade-in'>
           <div className='flex-container-row center-content'>
             <h2 className="centerFlavorTitle">//</h2>
-            <h2 className='artTitleWhite'>{slideTitle[index]}</h2>
+            <h2 className='artTitleWhite'>{data.name}</h2>
             <h2 className="centerFlavorTitle">//</h2>
           </div>
-        <img className='imgFit' src={artwork} alt="DisplayedArtwork" />
-        <p className='artTitleWhite'>{slideContent[index]}</p>
+        <img className='imgFit' src={data.image} alt="DisplayedArtwork" />
+        <p className='artTitleWhite'>{data.description}</p>
         <div className='artCostContainer center-content'>
           <div className='flex-container-row'>
             <h3 className='artTitleWhite'>Status:</h3>
-            <h3 className='artTitleWhite'>{slideAvailability[0]}</h3>
+            <h3 className='artTitleWhite'>{data.Availability}</h3>
           </div>
-          <h3 className='artTitleWhite'>Price:{slideCost[index]}</h3>
+          <h3 className='artTitleWhite'>Price:{data.cost}</h3>
           <button className='CartButton'>Add to Cart</button>
         </div>
       </div>

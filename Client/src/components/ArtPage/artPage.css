@@ -52,7 +52,7 @@
     align-items: center;
     align-content: flex-start;
     width: 80%;
-    max-height: 2500px;
+    max-height: 100vh;
     flex-wrap: wrap;
     gap: 15px; 
   }

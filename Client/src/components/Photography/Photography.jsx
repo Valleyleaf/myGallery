@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import {photoImage, photoTitle, photoDesc} from '../../assets/js/Photography'
+import {PhotographyGallery} from '../../assets/js/Photography'
 import './photography.css'
 
 function Photography() {
   const renderItems = () => {
-    return photoImage.map((artwork, index) => (
-      <div key={index} className='photoImage fade-in'>
+    return PhotographyGallery.map((data, id) => (
+      <div key={id} className='photoImage fade-in'>
           <div className='flex-container-row center-content'>
             <h2 className="centerFlavorTitle">//</h2>
-            <h2 className='artTitleWhite'>{photoTitle[index]}</h2>
+            <h2 className='artTitleWhite'>{data.name}</h2>
             <h2 className="centerFlavorTitle">//</h2>
           </div>
-        <img className='imgFit' src={artwork} alt="DisplayedArtwork" />
-        <p className='artTitleWhite'>{photoDesc[index]}</p>
+        <img className='imgFit' src={data.image} alt="DisplayedArtwork" />
+        <p className='artTitleWhite'>{data.description}</p>
       </div>
     ));
   };

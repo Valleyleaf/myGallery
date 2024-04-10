@@ -35,3 +35,20 @@ let photoDesc = [
 
 
 export {photoImage, photoTitle, photoDesc}
+
+let PhotographyGallery = [
+    {
+        id: 1,
+        name: 'Good Night',
+        description: 'Photo of the Saint John harbor',
+        image: 'https://drive.google.com/file/d/1ZjRNLLB3plntol_Rbidk2-DK58CAuc_9/view?usp=sharing',
+    },
+    {
+        id: 2,
+        name: 'Aurora',
+        description: 'Photo of the Saint John harbor',
+        image: 'https://cdn.discordapp.com/attachments/643686770482872335/1214690992318451713/20221002_194449.jpg?ex=660c7d24&is=65fa0824&hm=694959355e3b2452f67528fbcc298fc653a1e86098f889b6cc74c0865f1c5f66&',
+    },
+]
+
+export {PhotographyGallery}
