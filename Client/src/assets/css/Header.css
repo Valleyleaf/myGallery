@@ -7,8 +7,9 @@
     width: 100%;
     height: 225px;
     color: var(--white);
-    background-color: var(--black);
+    background-color: var(--bgcolor);
     overflow: hidden;
+    padding-left: 20px;
   }
 
 
@@ -114,4 +115,17 @@
 
 @media screen and (max-width: 688px){
   
+}
+
+.fade-in{
+  animation: fade-in-animation 2.3s;
+}
+
+@keyframes fade-in-animation {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }

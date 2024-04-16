@@ -41,7 +41,7 @@ let PhotographyGallery = [
         id: 1,
         name: 'Good Night',
         description: 'Photo of the Saint John harbor',
-        image: 'https://drive.google.com/file/d/1ZjRNLLB3plntol_Rbidk2-DK58CAuc_9/view?usp=sharing',
+        image: 'https://drive.google.com/file/d/1ZjRNLLB3plntol_Rbidk2-DK58CAuc_9/preview',
     },
     {
         id: 2,

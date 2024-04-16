@@ -11,9 +11,11 @@ function App() {
   return (
     <>
     <Header/>
-    <Navbar/>
-    <div className='outletClass'><Outlet/></div>
-    <Footer/>
+    <div className='flex-container-row'>
+      <Navbar/>
+      <div className='outletClass'><Outlet/></div>
+    </div>
+    {/* <Footer/> */}
     </>
   )
 }

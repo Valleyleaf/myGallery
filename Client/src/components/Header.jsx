@@ -21,10 +21,18 @@ export default function Header(){
                 <h2 className="title pushDown">Rat</h2>
                 <h2 className="title2">Maestro</h2>
         </Link>
-        <div className="flex-container-row center-content">
+        <div className="flex-container-row center-content fade-in">
+                <h2 className="artTitleWhite">Industrialism</h2>
+                <h2 className="centerFlavorTitle">//</h2> 
+                <h2 className="artTitleWhite">FolkLore</h2>
+                <h2 className="centerFlavorTitle">//</h2>
+                <h2 className="artTitleWhite">Post-Mortem</h2> 
+                </div>
+        {/* <div className="flex-container-row center-content">
         <h3 className="statusSpace">Local Artist in Saint John</h3>
         <img className="sjLogo icon-spinnerMeme" src="\src\assets\icons\logo-white.png" alt="City of Saint John logo" />
-        </div>
+        </div> */}
+        
 
         </div>
     );

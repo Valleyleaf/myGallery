@@ -26,7 +26,7 @@ export default function Footer(){
             <img className='small-img' src={instagramButton} alt="link to Instagram" />
             </a>
             </div>
-          <h4>Aston Andersson Dahllof 2024 &#169;</h4>
+          {/* <h4>Aston Andersson Dahllof 2024 &#169;</h4> */}
           </div>
       </div>
     );

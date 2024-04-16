@@ -40,7 +40,7 @@ let GalleryData = [
         id: 1,
         name: 'The Herald',
         description: 'Acrylic on 90x30cm canvas. Frame. Signed.',
-        image: 'https://pbs.twimg.com/media/FylVEZEXoAIDkme?format=jpg&name=large',
+        image: 'https://i.imgur.com/ob6PMkD.jpg',
         cost: '$20',
         Availability: 'Available',
     },
@@ -56,11 +56,34 @@ let GalleryData = [
         id: 3,
         name: 'Chance Encounter',
         description: 'Acrylic on 20x20cm canvas. Frame. Signed.',
+        image: 'https://i.imgur.com/gVfTxOU.jpg',
+        cost: '$20',
+        Availability: 'Available',
+    },
+    {
+        id: 4,
+        name: 'King of Nothing',
+        description: 'Acrylic on 20x20cm canvas. Frame. Signed.',
         image: 'https://pbs.twimg.com/media/FylVEZEXoAIDkme?format=jpg&name=large',
         cost: '$20',
         Availability: 'Available',
     },
-    
+    {
+        id: 5,
+        name: 'Stained',
+        description: 'AAcrylic on 90x30cm canvas. No Frame. Signed.',
+        image: 'https://i.imgur.com/24Ikkfw.jpg',
+        cost: '$20',
+        Availability: 'Available',
+    },
+    {
+        id: 6,
+        name: 'Panel 01',
+        description: 'AAcrylic on 90x30cm canvas. No Frame. Signed.',
+        image: 'https://i.imgur.com/jP84IOQ.jpg',
+        cost: '$20',
+        Availability: 'Available',
+    },
 ]
 
 export {GalleryData}

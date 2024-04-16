@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {GalleryData} from '../../assets/js/Gallery'
-import './artPage.css'
+import '../../assets/css/artPage.css'
 
 
 function Art() {

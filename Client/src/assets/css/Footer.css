@@ -13,7 +13,7 @@
 
 .footerBG{
   background-image: url('../img/wave-haikei.svg');
-  background-color: var(--black);
+  background-color: var(--bgcolor);
   background-size:cover, cover;
   background-position: bottom, bottom ;
   background-attachment: fixed, initial;
