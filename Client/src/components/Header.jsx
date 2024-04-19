@@ -32,8 +32,6 @@ export default function Header(){
         <h3 className="statusSpace">Local Artist in Saint John</h3>
         <img className="sjLogo icon-spinnerMeme" src="\src\assets\icons\logo-white.png" alt="City of Saint John logo" />
         </div> */}
-        
-
         </div>
     );
 };

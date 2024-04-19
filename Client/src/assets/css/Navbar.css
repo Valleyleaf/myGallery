@@ -1,14 +1,12 @@
+
 .NavClass{
     position: relative;
     display: flex;
     flex-direction: column;
-    flex: 3;
+    flex: 1;
     height: 100%;
-    max-width: 190px;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--bgcolor);
-    overflow: hidden;
     padding-bottom: 250px;
   }
   
@@ -27,7 +25,6 @@
     padding: 15px;
     transition: transform 0.3s ease;
     transform: scale(1.8) rotate(-15deg);
-    
   }
 
   .navButton{
@@ -49,7 +46,6 @@
     transition: transform 0.3s ease, color 0.3s ease;
     transform: scale(1.8) rotate(-5deg);
   }
-
 
 .icon-spinner:hover {
   animation: spin-animation 0.5s 1;

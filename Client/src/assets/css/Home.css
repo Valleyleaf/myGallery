@@ -1,13 +1,12 @@
 .homeClass{
-    position: relative;
     display: flex;
     height: auto;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 50px;
     color: var(--black);
-    min-height: 600px;
     width: 100%;
-    /* background-color: var(--black); */
+    background-color: var(--black);
   }
 
 .homeSide{
