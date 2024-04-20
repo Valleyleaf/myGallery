@@ -1,0 +1,66 @@
+Form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+  }
+  
+  Label {
+    margin: 15px;
+    color: var(--white);
+    
+  }
+
+  Input{
+    color: var(--black);
+    border: none;
+    background-color: var(--white);
+    border-bottom: 2px solid var(--white);
+  }
+
+  textarea{
+    color: var(--black);
+    border: none;
+    background-color: var(--printerGray);
+    border: 2px solid var(--white);
+  }
+
+  .textArea{
+    width: 400px;
+    height: 250px;
+    resize: vertical, horizontal;
+    background-color: var(--white);
+  }
+
+
+.inputArea{
+    width: 400px;
+}
+
+.formStyling{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.emailMeButton{
+    background-color: var(--yellow);
+    text-decoration: dashed;
+    color: var(--black);
+    padding: 5px 35px 5px 35px;
+    border-radius: 15px;
+    border: 1px solid var(--linkColor);
+    transition: transform 0.3s ease;
+  }
+  
+    .emailMeButton:hover{
+      border-color: var(--black);
+      color: var(--black);
+      transform: scale(1.15);
+      transition: transform 0.3s ease;
+    }

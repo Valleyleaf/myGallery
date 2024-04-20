@@ -1,11 +1,6 @@
 import React from "react";
 import {Link, useLocation} from 'react-router-dom'
-import footer from './Footer'
 import '../assets/css/Navbar.css'
-import linkedinButton from '../assets/icons/linkedin-fill-svgrepo-com.svg'
-import twitterButton from '../assets/icons/twitter-fill-svgrepo-com.svg'
-import gitHubButton from '../assets/icons/github-fill-svgrepo-com.svg'
-import instagramButton from '../assets/icons/instagram-fill-svgrepo-com.svg'
 
 export default function Navbar(){
     const currentPage = useLocation().pathname;
@@ -79,7 +74,7 @@ export default function Navbar(){
                 </Link>
             </div>
 
-            <div className='footerRow'>
+            <div className='flex-container-column'>
             <a className="iconHover" href="https://www.linkedin.com/in/aston-andersson-dahllof-b4310ab5/" target="_blank" alt='link to linkedin'>
                 <svg className='small-img' width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M22 3.47059V20.5294C22 20.9194 21.8451 21.2935 21.5693 21.5693C21.2935 21.8451 20.9194 22 20.5294 
