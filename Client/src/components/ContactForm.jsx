@@ -22,7 +22,7 @@ const ContactForm = () => {
       };
 
       return(
-        <div>
+        <div className="fade-in">
             <form
                 name='contact'
                 method="POST"
@@ -37,17 +37,7 @@ const ContactForm = () => {
                 <input name="bot-field"/>
             </div>
 
-            <label>
-                <input
-                className="inputArea"
-                type="text"
-                name='subject'
-                value={formInput.name}
-                onChange={handleChange}
-                placeholder="Subject"
-                />
-            </label>
-
+                <h1 className="topText">Name</h1>
             <label>
                 <input 
                 className="inputArea"
@@ -55,10 +45,11 @@ const ContactForm = () => {
                 name="name"
                 value={formInput.subject}
                 onChange={handleChange}
-                placeholder="Name"
+                placeholder="John Smith"
                 />
             </label>
 
+                <h1 className="topText">Email</h1>
             <label>
                 <input 
                 className="inputArea"
@@ -66,10 +57,11 @@ const ContactForm = () => {
                 name="email"
                 value={formInput.email}
                 onChange={handleChange}
-                placeholder="email"
+                placeholder="jsmith@email.com"
                 />
             </label>
 
+                <h1 className="topText">Phone Number</h1>
             <label>
                 <input 
                 className="inputArea"
@@ -77,10 +69,23 @@ const ContactForm = () => {
                 name="phone"
                 value={formInput.phone}
                 onChange={handleChange}
-                placeholder="Phone Number" 
+                placeholder="(xxx) xxx xxxx" 
                 />
             </label>
 
+                <h1 className="topText">Subject</h1>
+            <label>
+                <input
+                className="inputArea"
+                type="text"
+                name='subject'
+                value={formInput.name}
+                onChange={handleChange}
+                placeholder="Hello"
+                />
+            </label>
+
+                <h1 className="topText">Message</h1>
             <label>
                 <textarea
                 className="textArea" 

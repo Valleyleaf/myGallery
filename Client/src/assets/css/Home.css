@@ -1,43 +1,28 @@
 .homeClass{
     display: flex;
+    flex: 3;
     height: 100vh;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: flex-start;
     margin: 50px;
     color: var(--black);
     width: 100%;
   }
 
-.homeSide{
+/* .homeSide{
   display: flex;
   width: 40%;
   justify-content: flex-start;
   align-items: flex-start;
-}
+} */
 
-.articleTitle{
+.homeImage{
   display: flex;
-  flex-direction: row;
-  white-space: nowrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.articleText{
-  display: flex;
-  text-align: start;
-  margin: 15px;
-  color: var(--white);
   justify-content: flex-start;
-  align-items: flex-start;
+  width: 50vh;
+  height: auto;
 }
 
-.articleBoundry{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 300px
-}
 
 .centerFlavorTitle{
   margin-left: 15px;
