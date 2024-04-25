@@ -20,7 +20,7 @@ function Art() {
             <h3 className='artTitleWhite'>{data.Availability}</h3>
           </div>
           <h3 className='artTitleWhite'>Price:{data.cost}</h3>
-          <button className='CartButton'>Add to Cart</button>
+          {/* <button className='CartButton'>Add to Cart</button> */}
         </div>
       </div>
     ));

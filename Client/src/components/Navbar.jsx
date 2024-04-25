@@ -1,5 +1,7 @@
 import React from "react";
 import {Link, useLocation} from 'react-router-dom'
+import header from  './Header'
+import Title from './Title'
 import '../assets/css/Navbar.css'
 
 export default function Navbar(){
@@ -13,6 +15,7 @@ export default function Navbar(){
     };
     return(
         <div className="NavClass">
+                {Title()}
             <div className="navButton">
                 <Link
                 to="/"
@@ -58,7 +61,7 @@ export default function Navbar(){
                 </Link>
             </div>
 
-            <div>
+            {/* <div>
                 <Link
                 to="/Cart"
                 >
@@ -72,7 +75,7 @@ export default function Navbar(){
                     </svg>
                     </div>
                 </Link>
-            </div>
+            </div> */}
 
             <div className='flex-container-column'>
             <a className="iconHover" href="https://www.linkedin.com/in/aston-andersson-dahllof-b4310ab5/" target="_blank" alt='link to linkedin'>

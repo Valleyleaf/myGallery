@@ -84,6 +84,30 @@ let GalleryData = [
         cost: '$20',
         Availability: 'Available',
     },
+    {
+        id: 7,
+        name: 'TEST',
+        description: 'AAcrylic on 90x30cm canvas. No Frame. Signed.',
+        image: 'https://i.imgur.com/jP84IOQ.jpg',
+        cost: '$20',
+        Availability: 'Available',
+    },
+    {
+        id: 8,
+        name: 'TEST',
+        description: 'AAcrylic on 90x30cm canvas. No Frame. Signed.',
+        image: 'https://i.imgur.com/jP84IOQ.jpg',
+        cost: '$20',
+        Availability: 'Available',
+    },
+    {
+        id: 9,
+        name: 'TEST',
+        description: 'AAcrylic on 90x30cm canvas. No Frame. Signed.',
+        image: 'https://i.imgur.com/jP84IOQ.jpg',
+        cost: '$20',
+        Availability: 'Available',
+    },
 ]
 
 export {GalleryData}

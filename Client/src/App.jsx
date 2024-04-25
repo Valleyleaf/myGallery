@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    <Header/>
+    {/* <Header/> */}
     <div className='flex-container-row'>
       <Navbar/>
       <div className='outletClass'><Outlet/></div>

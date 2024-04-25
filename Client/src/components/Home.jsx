@@ -31,8 +31,13 @@ export default function Home(){
 
     return(
         <div className="flex-container-row homeClass">
-                            {renderInfo(rndInt)}
-                            {renderImage(rndInt)}
-                    </div>
+
+          <div className="renderInfo">
+            {renderInfo(rndInt)}
+          </div>
+          <div>
+          {renderImage(rndInt)}
+          </div>
+    </div>
     );
 };
