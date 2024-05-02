@@ -43,14 +43,14 @@ export default function Navbar(){
                 </Link>
             </div>
 
-            <div className="navButton">
+            {/* <div className="navButton">
                 <Link
                 to="/About"
                 className="navButton"
                 >
                 About
                 </Link>
-            </div>
+            </div> */}
 
             <div className="navButton">
                 <Link
