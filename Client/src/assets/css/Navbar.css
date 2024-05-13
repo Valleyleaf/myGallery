@@ -82,33 +82,3 @@
     transform: rotate(359deg);
   }
 }
-
-@media screen and (max-width: 980px){
-  .navButton{
-    background-color: var(--Transparent);
-    font-weight: bold;
-    font-size: 15px;
-    margin: 5px;
-    padding: 20px;
-    color: var(--white);
-    transition: transform 0.8s ease, color 0.3s ease;
-  }
-
-  .navButton:hover{
-    text-decoration: underline;
-    background-color: var(--Transparent);
-    padding: 0px;
-    color: var(--linkColor);
-    border-color:var(--Transparent);
-    transition: transform 0.3s ease, color 0.3s ease;
-    transform: scale(1.2) rotate(-5deg);
-  }
-}
-
-@media screen and (max-width: 980px){
-  
-}
-
-@media screen and (max-width: 688px){
-  
-}

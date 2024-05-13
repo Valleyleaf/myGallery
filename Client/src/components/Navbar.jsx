@@ -1,6 +1,5 @@
 import React from "react";
 import {Link, useLocation} from 'react-router-dom'
-import header from  './Header'
 import Title from './Title'
 import '../assets/css/Navbar.css'
 

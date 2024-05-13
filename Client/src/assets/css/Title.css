@@ -4,12 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    color: var(--white);
-    background-color: var(--bgcolor);
-    overflow: hidden;
-    padding-top: 15px;
-    padding-left: 20px;
+    width: 90%;
+    padding-top: 9%;
   }
 
 .titleAnimation{
@@ -49,28 +45,6 @@
 
 
 /* Mobile Options */
-@media screen and (max-width: 980px){
-  .titleAnimation:hover{
-    transition: transform 0.3s ease;
-    transform: scale(0.95);
-  }
-}
-
-@media screen and (max-width: 890px){
-  .titleAnimation:hover{
-    transition: transform 0.3s ease;
-    transform: scale(0.85);
-  }
-}
-
-@media screen and (max-width: 688px){
-  .titleAnimation:hover{
-    transition: transform 0.3s ease;
-    transform: scale(0.75);
-  }
-}
-
-
   .icon-spinnerMeme:hover {
     animation: spin-animation 0.3s infinite;
     display: inline-block;
@@ -85,34 +59,6 @@
     }
   }
 
-@media screen and (max-width: 980px){
-  .title{
-    font-size: 65px;
-    color: var(--yellow);
-    margin: 0px;
-  }
-
-  .pushDown{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-bottom: 8px;
-  }
-
-  .title2{
-      font-size: 90px;
-      color: var(--white);
-      margin: 0px;
-  }
-}
-
-@media screen and (max-width: 980px){
-  
-}
-
-@media screen and (max-width: 688px){
-  
-}
 
 .fade-in{
   animation: fade-in-animation 1.3s;

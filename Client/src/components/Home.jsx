@@ -20,7 +20,7 @@ export default function Home(){
 
       const renderInfo = (i) => {
         return (
-          <div className='fade-in'>
+          <div className='imageInfoClass fade-in'>
               <div className='flex-container-row center-content'>
                 <h2 className='yellowText'>{GalleryData[i].name}</h2>
               </div>

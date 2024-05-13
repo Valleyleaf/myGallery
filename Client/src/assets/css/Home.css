@@ -20,12 +20,19 @@
   justify-content: flex-start;
   width: 70vh;
   height: auto;
+  border: 1px solid var(--yellow);
+  padding: 1%;
+  border-radius: 2%;
 }
 
 .renderInfo{
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+.imageInfoClass{
+  width: 200px;
 }
 
 .centerFlavorTitle{

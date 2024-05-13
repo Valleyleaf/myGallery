@@ -12,17 +12,15 @@ export default function Header(){
       event.target.className.add('nav-active');
     };
     return(
-        <div className="flex-container-column headerClass ">
+        <div>
         <Link
           to="/"
-          className="flex-container-column title titleAnimation main-content-scaling"
+          className="flex-container-column headerClass title titleAnimation"
           onClick={handleLinkClick}
         >
                 <h2 className="title">Rat</h2>
                 <h2 className="title2">Maestro</h2>
         </Link>
-
-
         </div>
     );
 };
