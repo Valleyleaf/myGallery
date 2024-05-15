@@ -1,8 +1,7 @@
 import { useState } from 'react'
 import { Outlet } from 'react-router-dom';
-import Header from './components/Header'
-import Footer from './components/Footer.jsx'
 import Navbar from './components/Navbar.jsx'
+import Footer from './components/Footer.jsx'
 import './App.css'
 
 function App() {
@@ -10,9 +9,11 @@ function App() {
 
   return (
     <>
-    <Header/>
-    <Navbar/>
-    <div className='outletClass'><Outlet/></div>
+    {/* <Header/> */}
+    <div className='flex-container-row'>
+      <Navbar/>
+      <div className='outletClass'><Outlet/></div>
+    </div>
     <Footer/>
     </>
   )

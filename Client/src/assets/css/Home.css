@@ -1,31 +1,38 @@
 .homeClass{
-    position: relative;
     display: flex;
-    height: auto;
-    justify-content: center;
-    align-items: center;
+    flex: 3;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 50px;
     color: var(--black);
-    /* background-image: url('https://pbs.twimg.com/media/FriRXWLX0AERZPO?format=jpg&name=large'); */
-    background-position: center;
-    background-size: cover;
-    min-height: 600px;
-    background-color: var(--black);
+    width: 100%;
   }
 
-.homeSide{
+/* .homeSide{
   display: flex;
   width: 40%;
   justify-content: flex-start;
   align-items: flex-start;
+} */
+
+.homeImage{
+  display: flex;
+  justify-content: flex-start;
+  width: 70vh;
+  height: auto;
+  border: 1px solid var(--yellow);
+  padding: 1%;
+  border-radius: 2%;
 }
 
-.articleText{
+.renderInfo{
   display: flex;
-  text-align: start;
-  margin: 15px;
-  color: var(--white);
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+.imageInfoClass{
+  width: 200px;
 }
 
 .centerFlavorTitle{
@@ -36,7 +43,7 @@
 
 
 .goalsContainer{
-  width: 50%;
+  width: 70%;
 }
 
 .profileImage{

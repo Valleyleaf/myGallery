@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import {Link} from 'react-router-dom';
 import {PhotographyGallery} from '../../assets/js/Photography'
 import './photography.css'
 
@@ -11,7 +12,12 @@ function Photography() {
             <h2 className='artTitleWhite'>{data.name}</h2>
             <h2 className="centerFlavorTitle">//</h2>
           </div>
-        <img className='imgFit' src={data.image} alt="DisplayedArtwork" />
+          <Link
+          to={data.image}
+          className='thumbnail'
+          >
+          <img className='imgFit' src={data.image} alt={data.alt} />
+          </Link>
         <p className='artTitleWhite'>{data.description}</p>
       </div>
     ));

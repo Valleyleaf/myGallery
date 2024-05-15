@@ -1,0 +1,74 @@
+.headerClass{
+    position:relative;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding-top: 9%;
+  }
+
+.titleAnimation{
+  transition: transform 0.3s ease;
+}
+
+.titleAnimation:hover{
+  transition: transform 0.3s ease;
+  transform: scale(1.15);
+}
+
+.titleAnimation:hover{
+  transition: transform 0.3s ease;
+  transform: scale(1.05);
+}
+
+  .title{
+    font-size: 47px;
+    color: var(--yellow);
+    margin: 0px;
+    margin-right: 62px;
+  }
+
+  .pushDown{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+  }
+
+  .title2{
+    font-size: 40px;
+    color: var(--white);
+    margin-top: -15px;
+    margin-left: 18px;
+  }
+
+
+/* Mobile Options */
+  .icon-spinnerMeme:hover {
+    animation: spin-animation 0.3s infinite;
+    display: inline-block;
+  }
+  
+  @keyframes spin-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(359deg);
+    }
+  }
+
+
+.fade-in{
+  animation: fade-in-animation 1.3s;
+}
+
+@keyframes fade-in-animation {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}

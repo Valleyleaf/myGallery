@@ -3,22 +3,45 @@
   padding: 0;
   font-family: sans-serif;
   text-align: center;
-  background-color: var(--black);
-  --bgcolor: #404040;
-  --white: #ffffff;
+  background-color: var(--bgcolor);
+  --bgcolor: #1f1f1f;
+  --white: #ebebeb;
   --linkColor: #d6cf00;
   --Transparent: #ffffff00;
   --testColor: #ffcfcf;
   --yellow: #fff700;
   --black: #000000;
   --transBlack: #00000075;
+    color: var(--white);
+}
+
+svg:hover{
+  fill: var(--yellow)
+}
+
+.whiteText{
   color: var(--white);
+}
+
+.blackText{
+  color: var(--black);
+}
+
+.yellowText{
+  color: var(--yellow);
 }
 
 .outletClass{
   position:relative;
-  z-index: 0;
-  overflow: hidden;
+  display: flex;
+  flex: 11;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* background-image: url('https://i.imgur.com/tC7ADtb.jpg');
+  background-position: center;
+  background-size: 100% 100%; */
+  border-left: 1px solid var(--yellow);
+  /* border-top: 1px solid var(--yellow); */
 }
 
 .flex-container-row{
@@ -58,4 +81,3 @@
     transform: scale(0.75);
   }
 }
-

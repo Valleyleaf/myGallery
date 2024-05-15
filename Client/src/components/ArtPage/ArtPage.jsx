@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import {Link} from 'react-router-dom';
 import {GalleryData} from '../../assets/js/Gallery'
-import './artPage.css'
+import '../../assets/css/artPage.css'
 
 
 function Art() {
@@ -12,7 +13,13 @@ function Art() {
             <h2 className='artTitleWhite'>{data.name}</h2>
             <h2 className="centerFlavorTitle">//</h2>
           </div>
-        <img className='imgFit' src={data.image} alt="DisplayedArtwork" />
+        <Link
+          to={data.image}
+          className="thumbnail"
+        >
+        <img className='imgFit' src={data.image} alt={data.alt} />
+        </Link>
+        
         <p className='artTitleWhite'>{data.description}</p>
         <div className='artCostContainer center-content'>
           <div className='flex-container-row'>
@@ -20,7 +27,7 @@ function Art() {
             <h3 className='artTitleWhite'>{data.Availability}</h3>
           </div>
           <h3 className='artTitleWhite'>Price:{data.cost}</h3>
-          <button className='CartButton'>Add to Cart</button>
+          {/* <button className='CartButton'>Add to Cart</button> */}
         </div>
       </div>
     ));
