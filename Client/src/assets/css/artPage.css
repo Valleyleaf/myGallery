@@ -34,8 +34,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-left: 2%;
-
 }
 
 .gallery-flex-container-column{
@@ -50,7 +48,7 @@
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 15px; 
-    margin-top: 10px;
+    margin: 10px;
   }
 
   .displayImageLarge{

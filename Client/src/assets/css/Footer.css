@@ -1,0 +1,5 @@
+.FooterClass{
+    padding: 25px;
+    background-color: var(--yellow);
+    color: var(--black);
+}
