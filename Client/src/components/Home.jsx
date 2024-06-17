@@ -1,5 +1,5 @@
 import React from "react";
-import {GalleryData} from '../assets/js/Gallery'
+import {GalleryData, artistDisc} from '../assets/js/Gallery'
 // import articleArt from './HomeArticle'
 import '../assets/css/Home.css'
 
@@ -34,8 +34,12 @@ export default function Home(){
         <h2 className='flex-container-column center-content galleryTitle'>Welcome</h2>
         <div className="flex-container-row homeClass">
           <div className="renderInfo">
+            <div className="flex-container-column">
+            <h2 className="yellowText">The Artist</h2>
+            <p className="whiteText imageInfoClass">{artistDisc}</p>
             {renderInfo(rndInt)}
           </div>
+            </div>
           <div>
           {renderImage(rndInt)}
           </div>

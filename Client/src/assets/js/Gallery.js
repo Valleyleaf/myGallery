@@ -1,10 +1,12 @@
+
+let artistDisc = 'Aston .A Dahllöf is a local artist in Saint John New Brunswick. Going under the handle "Rat Maestro". Astons primary source of insperation comes from post-mortem and industrialism.'
+
 let GalleryData = [
     {
         id: 1,
         name: 'The Herald',
         description: 'Acrylic on 90x30cm canvas. Frame. Signed.',
-        image: 'https://i.imgur.com/ob6PMkD.jpg',
-        cost: '$55',
+        cost: '$TBD',
         Availability: 'Available',
         alt: 'Image of Artwork: The Herald'
     },
@@ -13,7 +15,7 @@ let GalleryData = [
         name: 'Ghost',
         description: 'Acrylic on 20x20cm canvas. Frame. Signed.',
         image: 'https://pbs.twimg.com/media/FylVEZEXoAIDkme?format=jpg&name=large',
-        cost: '$20',
+        cost: '$TBD',
         Availability: 'Available',
         alt: 'Image of Artwork: Ghost'
     },
@@ -22,7 +24,7 @@ let GalleryData = [
         name: 'Chance Encounter',
         description: 'Acrylic on 20x20cm canvas. Frame. Signed.',
         image: 'https://i.imgur.com/gVfTxOU.jpg',
-        cost: '$55',
+        cost: '$TBD',
         Availability: 'Available',
         alt: 'Image of Artwork: Chance Encounter'
     },
@@ -31,7 +33,7 @@ let GalleryData = [
         name: 'King of Nothing',
         description: 'Acrylic on 30x30cm canvas. Frame. Signed.',
         image: 'https://i.imgur.com/9NlfzwB.jpeg',
-        cost: '$20',
+        cost: '$TBD',
         Availability: 'Available',
         alt: 'Image of Artwork: King of Nothing'
     },
@@ -40,7 +42,7 @@ let GalleryData = [
         name: 'Stained',
         description: 'Acrylic on 90x30cm canvas. No Frame. Signed.',
         image: 'https://i.imgur.com/24Ikkfw.jpg',
-        cost: '$35',
+        cost: '$TBD',
         Availability: 'Available',
         alt: 'Image of Artwork: Stained'
     },
@@ -49,7 +51,7 @@ let GalleryData = [
         name: 'Panel 01',
         description: 'Acrylic on 90x30cm canvas. No Frame. Signed.',
         image: 'https://i.imgur.com/jP84IOQ.jpg',
-        cost: '$35',
+        cost: '$TBD',
         Availability: 'Available',
         alt: 'Image of Artwork: Panel 01'
     },
@@ -58,10 +60,10 @@ let GalleryData = [
         name: 'Bloodied Pastures',
         description: 'Acrylic on 30x30cm canvas.Frame. Signed.',
         image: 'https://i.imgur.com/VyNVCj5.jpeg',
-        cost: '$35',
+        cost: '$TBD',
         Availability: 'Available',
         alt: 'Image of Artwork: Bloodied Pastures'
     },
 ]
 
-export {GalleryData}
+export {GalleryData, artistDisc}
