@@ -30,14 +30,16 @@ export default function Home(){
       };
 
     return(
+      <div className="homeContainer"> 
+        <h2 className='flex-container-column center-content galleryTitle'>Welcome</h2>
         <div className="flex-container-row homeClass">
-
           <div className="renderInfo">
             {renderInfo(rndInt)}
           </div>
           <div>
           {renderImage(rndInt)}
           </div>
+    </div>
     </div>
     );
 };
