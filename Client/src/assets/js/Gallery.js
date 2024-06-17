@@ -1,3 +1,4 @@
+
 let artistDisc = 'Aston .A Dahllöf is a local artist in Saint John New Brunswick. Going under the handle "Rat Maestro". Astons primary source of insperation comes from post-mortem and industrialism.'
 
 let GalleryData = [
@@ -5,7 +6,6 @@ let GalleryData = [
         id: 1,
         name: 'The Herald',
         description: 'Acrylic on 90x30cm canvas. Frame. Signed.',
-        image: 'https://i.imgur.com/ob6PMkD.jpg',
         cost: '$TBD',
         Availability: 'Available',
         alt: 'Image of Artwork: The Herald'

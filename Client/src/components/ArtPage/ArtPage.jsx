@@ -36,7 +36,7 @@ function Art() {
   return (
     <div className='gallery-flex-container-column'>
       <div>
-        <h2 className='flex-container-row center-content artTitleWhite'>Gallery</h2>
+        <h2 className='flex-container-row center-content galleryTitle'>Gallery</h2>
         <div className='flex-container-row center-content'>
         <h3 className='artTitleWhite'>NOTE:</h3>
         <p className='pushDownArt artTitleWhite'>All prices are flat and include taxes.</p>

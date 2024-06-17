@@ -26,7 +26,7 @@ function Photography() {
   return (
     <div className='photo-flex-container'>
       <div>
-        <h2 className='flex-container-row center-content artTitleWhite'>Photography</h2>
+        <h2 className='flex-container-row center-content galleryTitle'>Photography</h2>
         <div className='flex-container-row center-content'>
         <h3 className='artTitleWhite'>NOTE:</h3>
         <p className='pushDownArt artTitleWhite'>Copyright Aston Andersson Dahllof</p>
