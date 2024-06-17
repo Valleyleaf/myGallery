@@ -44,22 +44,6 @@
   }
 
 
-/* Mobile Options */
-  .icon-spinnerMeme:hover {
-    animation: spin-animation 0.3s infinite;
-    display: inline-block;
-  }
-  
-  @keyframes spin-animation {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(359deg);
-    }
-  }
-
-
 .fade-in{
   animation: fade-in-animation 1.3s;
 }

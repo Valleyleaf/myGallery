@@ -1,6 +1,6 @@
 .artCostContainer{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex: 3;
   justify-content: space-between;
   align-items: center;
@@ -55,6 +55,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 350px;
+    height: 400px;
     color: var(--white);
     border: 1px solid var(--yellow);
     border-radius: 9px;
@@ -65,17 +67,29 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
     object-position: top;
+    transition: ease 0.3s;
+  }
+
+  .imgFit:hover{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: top;
+    transform: scale(1.05);
   }
 
   .thumbnail{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 100%;
+    height: 200px;
   }
 
   .artTitleBlack{
@@ -126,20 +140,3 @@
 .fade-in-from-bottom {
   animation: fadeInFromBottom 1s ease-in-out;
 }
-
-/* @media screen and (max-width: 1512px){
-  .artCostContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-  }
-}
-@media screen and (max-width: 1260px){
-  .artCostContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-  }
-} */
