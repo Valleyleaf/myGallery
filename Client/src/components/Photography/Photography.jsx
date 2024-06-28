@@ -14,9 +14,9 @@ function Photography() {
           </div>
           <Link
           to={data.image}
-          className='thumbnail'
+          className=''
           >
-          <img className='imgFit' src={data.image} alt={data.alt} />
+          <img className='imgFit2' src={data.image} alt={data.alt} />
           </Link>
         <p className='artTitleWhite'>{data.description}</p>
       </div>

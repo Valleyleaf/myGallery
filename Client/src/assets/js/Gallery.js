@@ -1,11 +1,12 @@
 
-let artistDisc = 'Aston .A Dahllöf is a local artist in Saint John New Brunswick. Going under the handle "Rat Maestro". Astons primary source of insperation comes from post-mortem and industrialism.'
+let artistDisc = 'Aston .A Dahllöf is a local artist in Saint John New Brunswick. Going under the handle "Rat Maestro". Astons primary source of insperation comes from post-mortem and industrialism. His dream is to draw a cool bird, but like, that\'s hard and might take a while.'
 
 let GalleryData = [
     {
         id: 1,
         name: 'The Herald',
         description: 'Acrylic on 90x30cm canvas. Frame. Signed.',
+        image: 'https://i.imgur.com/ob6PMkD.jpg',
         cost: '$TBD',
         Availability: 'Available',
         alt: 'Image of Artwork: The Herald'
