@@ -41,7 +41,7 @@
     text-decoration: underline;
     background-color: var(--Transparent);
     padding: 20px;
-    color: var(--linkColor);
+    color: var(--accColor);
     border-color:var(--Transparent);
     transition: transform 0.3s ease, color 0.3s ease;
     transform: scale(1.8) rotate(-5deg);
@@ -53,7 +53,7 @@
 }
 
 .iconHover:hover .small-img path {
-  fill: var(--yellow)
+  fill: var(--accColor)
 }
 
 .small-img{

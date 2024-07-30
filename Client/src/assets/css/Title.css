@@ -23,10 +23,10 @@
 }
 
   .title{
-    font-size: 47px;
-    color: var(--yellow);
+    font-size: 30px;
+    color: var(--accColor);
     margin: 0px;
-    margin-right: 62px;
+    margin-right: 45px;
   }
 
   .pushDown{
@@ -39,8 +39,8 @@
   .title2{
     font-size: 40px;
     color: var(--white);
-    margin-top: -15px;
-    margin-left: 18px;
+    margin-top: -10px;
+
   }
 
 

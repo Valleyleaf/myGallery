@@ -46,8 +46,8 @@ function Art() {
       <div>
         <h2 className='flex-container-row center-content galleryTitle'>Gallery</h2>
         <div className='flex-container-row center-content'>
-        <h3 className='artTitleWhite'>NOTE:</h3>
-        <p className='pushDownArt artTitleWhite'>All prices are flat and include taxes.</p>
+        <h3 className='artTitleAcc'>NOTE:</h3>
+        <p className='pushDownArt artTitleAcc'>All prices are flat and include taxes.</p>
         </div>
       </div>
       <div className='gallery-flex-container-row'>

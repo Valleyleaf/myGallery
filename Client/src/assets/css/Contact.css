@@ -55,7 +55,7 @@ Form {
 }
 
 .emailMeButton{
-    background-color: var(--yellow);
+    background-color: var(--accColor);
     text-decoration: dashed;
     color: var(--black);
     padding: 5px 35px 5px 35px;

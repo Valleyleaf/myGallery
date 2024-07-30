@@ -9,7 +9,7 @@
   --linkColor: #d6cf00;
   --Transparent: #ffffff00;
   --testColor: #ffcfcf;
-  --yellow: #fff700;
+  --accColor: #0f4cf1;
   --black: #000000;
   --transBlack: #00000075;
     color: var(--white);
@@ -39,7 +39,7 @@ svg:hover{
   justify-content: center;
   align-items: center;
   border-left: 1px solid var(--yellow);
-
+  background-color: white;
 }
 
 .flex-container-row{

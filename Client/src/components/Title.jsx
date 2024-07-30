@@ -18,8 +18,8 @@ export default function Header(){
           className="flex-container-column headerClass title titleAnimation"
           onClick={handleLinkClick}
         >
-                <h2 className="title">Rat</h2>
-                <h2 className="title2">Maestro</h2>
+                <h2 className="title">Aston</h2>
+                <h2 className="title2">Dahllof</h2>
         </Link>
         </div>
     );
