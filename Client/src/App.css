@@ -36,13 +36,10 @@ svg:hover{
   position:relative;
   display: flex;
   flex: 11;
-  justify-content: flex-start;
-  align-items: flex-start;
-  /* background-image: url('https://i.imgur.com/tC7ADtb.jpg');
-  background-position: center;
-  background-size: 100% 100%; */
+  justify-content: center;
+  align-items: center;
   border-left: 1px solid var(--yellow);
-  /* border-top: 1px solid var(--yellow); */
+
 }
 
 .flex-container-row{
@@ -69,16 +66,31 @@ svg:hover{
   .main-content-scaling {
     transform: scale(1.00);
   }
+
+  .outletClass{
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 }
 
 @media screen and (max-width: 890px){
   .main-content-scaling {
     transform: scale(0.90);
   }
+
+  .outletClass{
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 }
 
 @media screen and (max-width: 688px){
   .main-content-scaling {
     transform: scale(0.75);
+  }
+
+  .outletClass{
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 }
