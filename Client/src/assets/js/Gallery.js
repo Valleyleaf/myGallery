@@ -7,7 +7,7 @@ let GalleryData = [
         name: 'The Herald',
         description: 'Acrylic on 90x30cm canvas. Frame. Signed.',
         image: 'https://i.imgur.com/ob6PMkD.jpg',
-        cost: '$75',
+        cost: '$349',
         Availability: 'Available',
         alt: 'Image of Artwork: The Herald'
     },
@@ -16,7 +16,7 @@ let GalleryData = [
         name: 'Ghost',
         description: 'Acrylic on 20x20cm canvas. Frame. Signed.',
         image: 'https://pbs.twimg.com/media/FylVEZEXoAIDkme?format=jpg&name=large',
-        cost: '$40',
+        cost: '$78',
         Availability: 'Available',
         alt: 'Image of Artwork: Ghost'
     },
@@ -25,7 +25,7 @@ let GalleryData = [
         name: 'Chance Encounter',
         description: 'Acrylic on 20x20cm canvas. Frame. Signed.',
         image: 'https://i.imgur.com/gVfTxOU.jpg',
-        cost: '$75',
+        cost: '$349',
         Availability: 'Available',
         alt: 'Image of Artwork: Chance Encounter'
     },
@@ -34,7 +34,7 @@ let GalleryData = [
         name: 'King of Nothing',
         description: 'Acrylic on 30x30cm canvas. Frame. Signed.',
         image: 'https://i.imgur.com/9NlfzwB.jpeg',
-        cost: '$40',
+        cost: '$78',
         Availability: 'Available',
         alt: 'Image of Artwork: King of Nothing'
     },
@@ -43,7 +43,7 @@ let GalleryData = [
         name: 'Stained',
         description: 'Acrylic on 90x30cm canvas. No Frame. Signed.',
         image: 'https://i.imgur.com/24Ikkfw.jpg',
-        cost: '$50',
+        cost: '$199',
         Availability: 'Available',
         alt: 'Image of Artwork: Stained'
     },
@@ -52,7 +52,7 @@ let GalleryData = [
         name: 'Intrusive Thoughts',
         description: 'Acrylic on 60x60cm canvas.Frame. Signed.',
         image: 'https://i.imgur.com/jsOA3EM.jpg',
-        cost: '$75',
+        cost: '$259',
         Availability: 'Available',
         alt: 'Image of Artwork: Intrusive Thoughts'
     },
@@ -61,7 +61,7 @@ let GalleryData = [
         name: 'Bloodied Pastures',
         description: 'Acrylic on 30x30cm canvas.Frame. Signed.',
         image: 'https://i.imgur.com/VyNVCj5.jpg',
-        cost: '$40',
+        cost: '$88',
         Availability: 'Available',
         alt: 'Image of Artwork: Bloodied Pastures'
     },
@@ -70,7 +70,7 @@ let GalleryData = [
         name: 'Cosmic Wave',
         description: 'Acrylic on 60x60cm canvas.Frame. Signed.',
         image: 'https://i.imgur.com/VBiLblU.jpg',
-        cost: '$75',
+        cost: '$379',
         Availability: 'Available',
         alt: 'Image of Artwork: Cosmic Wave'
     }

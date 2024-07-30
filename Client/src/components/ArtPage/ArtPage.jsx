@@ -26,8 +26,16 @@ function Art() {
             <h3 className='artTitleWhite'>Status:</h3>
             <h3 className='artTitleWhite'>{data.Availability}</h3>
           </div>
+          <div className='flex-container-row center-content'>
           <h3 className='artTitleWhite'>Price:{data.cost}</h3>
-          {/* <button className='CartButton'>Add to Cart</button> */}
+          <Link
+          to='/contact'
+          className='CartButton'
+          >
+          INQUIRE
+          </Link>
+          </div>
+
         </div>
       </div>
     ));
