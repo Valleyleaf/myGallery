@@ -24,19 +24,18 @@ export default function Home(){
               <div className='flex-container-row center-content'>
                 <h2 className='yellowText'>{GalleryData[i].name}</h2>
               </div>
-            <p className='artTitleWhite'>{GalleryData[i].description}</p>
+            <p>{GalleryData[i].description}</p>
           </div>
         );
       };
 
     return(
       <div className="homeContainer"> 
-        <h2 className='flex-container-column center-content galleryTitle'>Welcome</h2>
         <div className="flex-container-row homeClass">
           <div className="renderInfo">
             <div className="flex-container-column">
             <h2 className="yellowText">The Artist</h2>
-            <p className="whiteText imageInfoClass">{artistDisc}</p>
+            <p className="imageInfoClass">{artistDisc}</p>
             {renderInfo(rndInt)}
           </div>
             </div>

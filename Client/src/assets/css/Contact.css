@@ -8,12 +8,10 @@ Form {
   
   Label {
     margin: 15px;
-    color: var(--white);
-    
   }
 
   Input{
-    color: var(--black);
+    color: var(--accColor);
     border: none;
     background-color: var(--white);
     border-bottom: 2px solid var(--white);
@@ -51,6 +49,7 @@ Form {
     align-items: center;
     height: 100vh;
     width: 100%;
+    color: var(--accColor);
 
 }
 
@@ -66,8 +65,9 @@ Form {
   
     .emailMeButton:hover{
       border-color: var(--black);
-      background-color: var(--linkColor);
+      background-color: var(--accColor);
       color: var(--black);
       transform: scale(1.05) rotate(4deg);
+      border: 1px solid var(--linkColor);
       transition: transform 0.3s ease;
     }

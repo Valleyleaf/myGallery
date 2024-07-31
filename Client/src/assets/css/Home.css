@@ -28,7 +28,6 @@
   justify-content: flex-start;
   width: 70vh;
   height: auto;
-  border: 1px solid var(--accColor);
   padding: 1%;
   border-radius: 2%;
 }

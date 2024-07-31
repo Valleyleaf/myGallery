@@ -56,10 +56,10 @@
     width: 350px;
     height: 400px;
     color: var(--white);
-    border: 1px solid var(--accColor);
+
     border-radius: 9px;
     transition: transform 0.3s ease;
-    background-color: var(--bgcolor);
+    background-color: var(--white);
   }
   
   .imgFit{
@@ -93,6 +93,8 @@
 
   .artTitleBlack{
     color: var(--black);
+    margin: 10px 5px 10px 5px;
+    padding: 0px;
   }
 
   .artTitleWhite{
@@ -108,7 +110,7 @@
   }
 
   .galleryTitle{
-    color: var(--accColor);
+    color: var(--black);
     font-size: 28px;
     margin: 10px 5px 10px 5px;
     padding: 15px 0px 0px 0px;
